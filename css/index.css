@@ -1,0 +1,322 @@
+* {
+    /*border: 1px solid red;*/
+    font-family: 'Raleway', sans-serif;
+}
+
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+#wrapper {
+    min-width: 1792px;
+
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    min-width: 1210px;
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.intro-text {
+    padding-top: 20%;
+    text-align: left;
+    margin: 80px 40px 0 40px;
+}
+
+.intro-h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.intro-p {
+    margin: 80px 40px;
+    font-size: 1.2em;
+    word-spacing: 1px;
+}
+
+.intro-link {
+    font-weight: 700;
+}
+
+.intro-rectangle {
+    float: left;
+    margin: 10px 0 0 -40px;
+    border-top: 20px solid #555;
+    border-right: 20px solid transparent;
+    height: 0;
+    width: 450px;
+}
+
+.intro-img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.background {
+    background-image: url("../images/resort2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+    width: 67%;
+}
+
+.background-overlay {
+    height: 950px;
+    width: 33%;
+    padding-top: 30px;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+#aboutme {
+    background-color: black;
+    text-color: white;
+
+    padding: 0px;
+    min-width: 800px;
+}
+
+#about_descr {
+    color: white;
+    margin-top: -0.05%;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.5em;
+    padding-top: 5%;
+    width: 52%;
+    float: center;
+    margin-left: 23%;
+
+}
+
+.arrow {
+    width: 4%;
+    margin-left: 47%;
+    -webkit-animation: bounce 2s infinite 2s;
+    animation: bounce 2s infinite 2s;
+    position: relative;
+    overflow: auto;
+    margin-top: .5%;
+}
+
+@keyframes bounce {
+
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    60% {
+        -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+
+
+#experience {
+    padding-top: 0px;
+    margin-top: 0px;
+    min-height: 1000px;
+
+
+}
+
+#experience_content {
+    margin: 0 auto;
+    min-height: 100vh;
+    width: min-content;
+}
+
+.row {
+    display: flex;
+}
+
+
+.column {
+    color: black;
+    flex: 10%;
+    padding: 20px;
+}
+
+.column2 {
+    margin-left: 50px;
+    border: 1px solid blue;
+    width: 50px;
+    color: black;
+    flex: 1%;
+    padding: 20px;
+}
+
+.center_text {
+    padding-top: 6%;
+    text-align: center;
+    color: #001418;
+    font-weight: 600;
+    font-size: 2em;
+    margin-left: 1%;
+    min-width: 1200px;
+    margin-left: -1%;
+}
+
+.vline {
+    height: 105%;
+    width: 1px;
+    border: none;
+    border-right: solid 0.5px black;
+    z-index: 10;
+    padding-bottom: 5%;
+}
+
+.circle:before {
+    content: ' \25CF';
+    font-size: 20px;
+    margin-left: 49.69%;
+}
+
+
+.leftside {
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    text-align: right;
+}
+
+.rightside {
+    display: inline-block;
+    vertical-align: top;
+    width: 520px;
+
+}
+
+
+.date {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.company {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.role {
+    font-size: 1.1em;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+
+.job_descr {
+    font-size: 15px;
+    line-height: 1.8em;
+}
+
+
+#br_height {
+    font-size: 1em;
+    line-height: 1.6em;
+    font-size: 13px;
+}
+
+#br_height2 {
+    font-size: 1em;
+    line-height: 3.2em;
+    font-size: 13px;
+}
+
+#br_height3 {
+    font-size: 1em;
+    line-height: 1.2em;
+    font-size: 13px;
+}
+
+#br_height4 {
+    font-size: 1em;
+    line-height: 2.3em;
+    font-size: 13px;
+}
+
+#small_diff {
+    font-size: 0.0em;
+}
+
+.logo_descr {
+    text-wrap: normal;
+}
+
+#andela_logo {
+    width: 7%;
+    position: absolute;
+}
+
+
+#zenith_bank_logo {
+    width: 5%;
+    margin-left: -.5%;
+    position: absolute;
+}
+
+#ifmacinema_logo {
+    margin-top: -.5%;
+    width: 3%;
+    position: absolute;
+}
+
+#nasa_logo {
+    width: 5.8%;
+    margin-left: -1.5%;
+    position: absolute;
+}
+
+#stanford_logo {
+    width: 3%;
+    margin-left: -.6%;
+    position: absolute;
+}
+
+#sjsu_logo {
+    width: 3%;
+    position: absolute;
+}
+
+#andela_left{
+    padding-bottom: 23rem;
+}
+
+#zenith_bank_left{
+    padding-bottom: 11rem;
+}
