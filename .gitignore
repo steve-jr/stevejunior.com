@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# JetBrains IDEs
+.idea/
+
+# Editor and operating system artifacts
+.vscode/
+*.swp
+*.swo
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
